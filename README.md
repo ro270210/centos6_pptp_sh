@@ -2,6 +2,8 @@
 
 ###如果遇到807或者619错误，运行以下命令
 
+**this sh can use in bandwagonhost**
+
 iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 1723 -j ACCEPT
 
 iptables -A INPUT -m state --state NEW -m udp -p udp --dport 1723 -j ACCEPT
